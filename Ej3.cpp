@@ -24,7 +24,7 @@ void eliminarOcurrencias(Pila<int>& pila, int valor) {
                 encontrado = true;  // Marca que la primera ocurrencia fue encontrada
                 pilaAux.push(dato);  // Mantiene la primera ocurrencia
             }
-            contador++;  // Cuenta las ocurrencias del valor
+        contador++;  // Cuenta las ocurrencias del valor
         } else {
             pilaAux.push(dato);
         }
